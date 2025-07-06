@@ -44,41 +44,41 @@ Once installed, use the `karya` command:
 ### Add a Task
 
 ```bash
-karya a "Buy groceries" -p 2 -d tomorrow
+karya add "Buy groceries" -p 2 -d tomorrow
 ```
 
 ### List Tasks
 
 ```bash
-karya l
+karya list
 ```
 
 ### Filter Tasks
 
 ```bash
-karya l -p high -s "In Progress"
+karya list -p high -s "In Progress"
 ```
 
 ### Mark Task Complete
 
 ```bash
-karya c 4 -s 0
+karya update 4 -s 0
 ```
 
 ### Delete Task(s)
 
 ```bash
-karya d 4 5 6
+karya delete 4 5 6
 ```
 
 ---
 
 ## 🧠 CLI Options Overview
 
-- **`a`**: Add a task
-- **`l`**: List tasks
-- **`c`**: Complete or update status
-- **`d`**: Delete task(s)
+- **`add`**: Add a task
+- **`list`**: List tasks
+- **`update`**: Complete or update status
+- **`delete`**: Delete task(s)
 
 ### Priority Levels
 
@@ -111,4 +111,4 @@ karya d 4 5 6
 
 ## 📄 License
 
-MIT License © 2025 Shridhar S Sherugar
+MIT [LICENSE](./LICENSE) © 2025 Shridhar S Sherugar
