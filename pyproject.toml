@@ -42,6 +42,6 @@ keywords = ["task", "todo", "cli", "productivity", "task-manager"]
 karya = "karya.main:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/karya"
-Issues = "https://github.com/yourusername/karya/issues"
-Repository = "https://github.com/yourusername/karya"
+Homepage = "https://github.com/Shrii939/karya"
+Issues = "https://github.com/Shrii939/karya/issues"
+Repository = "https://github.com/Shrii939/karya"

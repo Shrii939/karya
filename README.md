@@ -30,7 +30,7 @@ pip install karya
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/karya
+git clone https://github.com/Shrii939/karya
 cd karya
 pip install -e .
 ```
